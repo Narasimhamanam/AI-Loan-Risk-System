@@ -11,7 +11,7 @@ This project predicts whether a loan application is likely to be **Approved**, *
 Add your deployed Render link here:
 
 ```bash
-https://your-render-link.onrender.com
+https://ai-loan-risk-dashboard.onrender.com/
 ```
 
 ---
@@ -129,6 +129,8 @@ AI-Loan-Risk-System/
 │
 ├── backend/
 ├── data/
+|       load_data.csv       #Used to train the data 
+|       test_data.csv       #Samples to test in review process
 ├── notebooks/
 │
 ├── README.md
