@@ -803,8 +803,8 @@ header {visibility:hidden;}
     bottom:18px;
     left:50%;
     transform:translateX(-50%);
-
     width:92%;
+    max-width:500px;
 
     background:rgba(15,23,42,0.75);
 
@@ -821,18 +821,23 @@ header {visibility:hidden;}
     padding:14px 10px;
 
     z-index:9999;
+
+    box-shadow:
+        0 0 20px rgba(168,85,247,0.15),
+        0 0 40px rgba(34,211,238,0.08);
 }
 
-.mobile-nav-item{
-    color:#94a3b8;
-    text-align:center;
-    font-size:13px;
-}
+# .mobile-nav-item{
+#     color:#94a3b8;
+#     text-align:center;
+#     font-size:13px;
+#     line-height:1.6;
+# }
 
-.mobile-nav-item.active{
-    color:#22d3ee;
-    font-weight:600;
-}
+# .mobile-nav-item.active{
+#     color:#22d3ee;
+#     font-weight:600;
+# }
 
 /* animations */
 
@@ -1223,35 +1228,38 @@ AI Recommendations
 # MOBILE NAVIGATION
 # ---------------------------------------------------
 
-st.markdown("""
+# ---------------------------------------------------
+# MOBILE NAVIGATION
+# ---------------------------------------------------
 
-<div class="mobile-nav">
+# mobile_nav = """
+# <div class="mobile-nav">
 
-    <div class="mobile-nav-item active">
-        🏠
-        <br>
-        Home
-    </div>
+#     <div class="mobile-nav-item active">
+#         🏠<br>
+#         Home
+#     </div>
 
-    <div class="mobile-nav-item">
-        📊
-        <br>
-        Analytics
-    </div>
+#     <div class="mobile-nav-item">
+#         📊<br>
+#         Analytics
+#     </div>
 
-    <div class="mobile-nav-item">
-        🤖
-        <br>
-        AI
-    </div>
+#     <div class="mobile-nav-item">
+#         🤖<br>
+#         AI
+#     </div>
 
-    <div class="mobile-nav-item">
-        ⚙️
-        <br>
-        Settings
-    </div>
+#     <div class="mobile-nav-item">
+#         ⚙️<br>
+#         Settings
+#     </div>
 
-</div>
+# </div>
+# """
 
-""", unsafe_allow_html=True)
+# st.markdown(
+#     mobile_nav,
+#     unsafe_allow_html=True
+# )
 
