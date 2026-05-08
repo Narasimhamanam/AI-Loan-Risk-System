@@ -264,15 +264,15 @@
 #     applicant_income = st.slider(
 #         "Applicant Income",
 #         1000,
-#         25000,
+#         300000,
 #         8000
 #     )
 
 #     loan_amount = st.slider(
 #         "Loan Amount",
-#         50,
-#         700,
-#         200
+#         100,
+#         10000,
+#         2000
 #     )
 
 #     credit_history = st.slider(
