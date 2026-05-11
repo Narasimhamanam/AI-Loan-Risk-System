@@ -8,7 +8,6 @@ This project predicts whether a loan application is likely to be **Approved**, *
 
 # 🚀 Live Demo
 
-Add your deployed Render link here:
 
 ```bash
 https://ai-loan-risk-dashboard.onrender.com/
@@ -143,7 +142,7 @@ AI-Loan-Risk-System/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Loan-Risk-System.git
+git clone https://github.com/Narasimhamanam/AI-Loan-Risk-System.git
 ```
 
 ---
@@ -241,15 +240,9 @@ frontend
 # 🎯 Future Enhancements
 
 Planned upgrades:
-- Real ML model integration
 - SHAP Explainability
-- PDF Report Generation
-- Authentication System
-- Prediction History Database
-- CSV Batch Prediction
-- Cloud Database Integration
 - AI Chat Assistant
-- Admin Analytics Panel
+- Improving accuracy
 
 ---
 
