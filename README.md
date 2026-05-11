@@ -50,7 +50,7 @@ Provides:
 
 ---
 
-## ✅ Premium Fintech Dashboard UI
+## ✅ Premium Dashboard UI
 Modern futuristic UI with:
 - Neon gradients
 - Dark glassmorphism theme
