@@ -3,5 +3,7 @@ plotly
 pandas
 numpy
 scikit-learn
+xgboost
+joblib
 streamlit-lottie
 requests
